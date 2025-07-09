@@ -1,0 +1,20 @@
+services:
+  ros_humble:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USER: humble
+
+    tty: true
+    stdin_open: true
+    privileged: true
+    network_mode: host
+
+    image: starrr/ros:humble
+    container_name: humble.run
+
+    volumes:
+      - $PWD/../ros_ws:/home/humble/humble_ws
+
+    command: bash
