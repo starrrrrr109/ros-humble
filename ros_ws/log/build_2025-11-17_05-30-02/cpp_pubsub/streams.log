@@ -1,0 +1,7 @@
+[0.009s] Invoking command in '/home/humble/humble_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/humble_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/humble/humble_ws/install/cpp_pubsub
+[0.017s] [31mCMake Error at CMakeLists.txt:4:
+[0.017s]   Parse error.  Expected "(", got identifier with text "to".
+[0.017s] 
+[0.017s] [0m
+[0.017s] -- Configuring incomplete, errors occurred!
+[0.019s] Invoked command in '/home/humble/humble_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/humble_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/humble/humble_ws/install/cpp_pubsub
